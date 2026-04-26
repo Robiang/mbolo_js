@@ -1,0 +1,9 @@
+// Episode 7 : Majeur ou Mineur
+
+const age: number = Number(prompt("Quel est votre âge ?"));
+
+if (age >= 18) {
+  alert("Vous êtes majeur");
+} else {
+  alert("Vous êtes mineur");
+}
